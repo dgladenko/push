@@ -714,7 +714,9 @@ textarea.input {
   justify-self: start
 }
 .client__container {
-  max-width: 75rem
+  max-width: 75rem;
+  position: relative;
+  z-index: 2
 }
 .client__arrow {
   margin: 0 auto;
